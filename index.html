@@ -7,7 +7,6 @@
     <meta name="author" content="Software Engineer" />
     <meta name="description" content="Coffee Shop" />
     <meta name="keywords" content="html" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +16,6 @@
     />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   </head>
-
   <body>
     <div class="page">
       <header class="header">
@@ -133,10 +131,137 @@
             I agree with the terms of use
           </form>
         </section>
-        <section class="menu" id="menu"></section>
-        <section class="about" id="contacts"></section>
+        <section class="menu" id="menu">
+          <h2 class="menu___title">Menu</h2>
+          <p class="menu___subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </p>
+          <div class="menu__cards">
+            <div class="card">
+              <h3 class="card___title">Filter</h3>
+              <ul class="card__content">
+                <li class="card__list-item">
+                  Espresso <span class="card__list-divider"></span> $2 (25ml)
+                </li>
+                <li class="card__list-item">
+                  Double espresso <span class="card__list-divider"></span> $4
+                  (50ml)
+                </li>
+                <li class="card__list-item">
+                  Filter coffee <span class="card__list-divider"></span> $5
+                  (250ml)
+                </li>
+                <li class="card__list-item">
+                  V60 <span class="card__list-divider"></span> $5.5 (250ml)
+                </li>
+                <li class="card__list-item">
+                  Aeropress <span class="card__list-divider"></span> $5.5
+                  (250ml)
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__title">Black coffee</h3>
+              <ul class="card__content">
+                <li class="card__list-item">
+                  Espresso <span class="card__list-divider"></span> $2 (25ml)
+                </li>
+                <li class="card__list-item">
+                  Double espresso <span class="card__list-divider"></span> $4
+                  (50ml)
+                </li>
+                <li class="card__list-item">
+                  Filter coffee <span class="card__list-divider"></span> $5
+                  (250ml)
+                </li>
+                <li class="card__list-item">
+                  V60 <span class="card__list-divider"></span> $5.5 (250ml)
+                </li>
+                <li class="card__list-item">
+                  Aeropress <span class="card__list-divider"></span> $5.5
+                  (250ml)
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3 class="card__title">Milk coffee</h3>
+              <ul class="card__content">
+                <li class="card__list-item">
+                  Cappuccino <span class="card__list-divider"></span> $5.5
+                  (250ml) / $7.5 (350ml)
+                </li>
+                <li class="card__list-item">
+                  Latte <span class="card__list-divider"></span> $7 (250ml) / $9
+                  (350ml)
+                </li>
+                <li class="card__list-item">
+                  Flat white <span class="card__list-divider"></span> $5.5
+                  (250ml) / $7.5 (350ml)
+                </li>
+                <li class="card__list-item">
+                  Iced latte <span class="card__list-divider"></span> $6.5
+                  (250ml) / $8 (350ml)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop is located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact — so we
+              don't sell single-use cups. But you can buy one of our reusable
+              cups!
+            </p>
+          </div>
+          <div class="about__circle about__circle_animation_blurred"></div>
+          <div class="about__circle"></div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contacts">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Triple Peaks Logo"
+            class="footer__logo"
+          />
+          <div>
+            <h4 class="footer__social-heading">Social media</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook icon"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram icon"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2025 Your name</p>
+      </footer>
     </div>
   </body>
 </html>

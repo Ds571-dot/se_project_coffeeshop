@@ -1,0 +1,30 @@
+.menu {
+  padding: 100px 100px 45px;
+  background: url("../images/background_menu.svg") no-repeat center/cover;
+}
+
+.menu___title {
+  text-align: center;
+  margin: 0 0 24px;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  font-family: "Inter", serif;
+}
+
+.menu___subtitle {
+  font-family: "Noto Serif", serif;
+  max-width: 845px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.menu__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 17px 40px;
+  justify-content: center;
+  margin-top: 71px;
+}
