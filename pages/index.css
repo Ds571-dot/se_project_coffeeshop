@@ -5,6 +5,7 @@
 @import url(../blocks/card.css);
 @import url(../blocks/about.css);
 @import url(../blocks/footer.css);
+@import url(../blocks/menu.css);
 .header {
   padding: 30px 80px 40px;
   background: #fff url(../images/background_header.svg) no-repeat center/cover;
