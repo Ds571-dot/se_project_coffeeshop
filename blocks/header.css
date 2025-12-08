@@ -1,7 +1,6 @@
 .header {
   padding: 30px 80px 40px;
   background: #fff url(../images/background_header.svg) no-repeat center/cover;
-  height: 800px;
   padding-left: 80px;
   display: flex;
   flex-direction: column;

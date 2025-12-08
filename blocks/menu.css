@@ -25,7 +25,7 @@
 .menu__cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 17px 40px;
+  gap: 100px;
   justify-content: center;
-  margin-top: 71px;
+  margin-top: 100px;
 }
