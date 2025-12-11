@@ -21,7 +21,7 @@
   gap: 100px;
 }
 
-.recipe__videos-caption {
+.recipes__videos-caption {
   display: flex;
   justify-content: space-between;
   font-family: "Inter", "Arial", sans-serif;
